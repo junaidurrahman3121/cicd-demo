@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: test
+        uses: test/v1
       - name: Login to DockerHub
         uses: test
         with:
